@@ -486,9 +486,16 @@
                 </div>
 
                 <div class="check-box">
-                    <input class="input-check-box" id="user-privacy" type="checkbox" value="true" name="user-privacy" />
-                    <label class="label-check-box" for="user-privacy">I accept the terms and conditions of
-                        the<span class="span-check-box"></span></label>
+                    <input class="input-check-box visually-hidden" id="user-privacy" type="checkbox" value="true"
+                        name="user-privacy" />
+                    <label class="label-check-box" for="user-privacy">
+                        <span class="span-check-box">
+                            <svg class="icon-checkbox" width="10" height="8">
+                                <use href="./images/icons.svg#icon-Checkbox"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the<a class="privacy-link" href="">Privacy Policy</a>
+                    </label>
 
                 </div>
             </form>
