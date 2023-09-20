@@ -761,6 +761,10 @@ ol {
     fill: #4D5AE5;
 }
 
+.input-user:focus {
+    border-color: #4D5AE5;
+}
+
 .div-label-comment {
     margin-bottom: 16px
 }
