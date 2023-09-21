@@ -604,6 +604,7 @@ ol {
 
 .mail-sub {
     display: flex;
+    gap: 24px;
 }
 
 .mail-label {}
@@ -628,7 +629,6 @@ ol {
 
 
 .button-footer {
-    margin-left: 24px;
     min-width: 165px;
     height: 40px;
     display: flex;
